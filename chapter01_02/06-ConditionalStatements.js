@@ -21,7 +21,7 @@ if (month === 1) {
 } else if (month === 3) {
   console.log("Mach");
 } else {
-  console.log("Month is not January, February or Macd");
+  console.log("Month is not January, February or Mach");
 }
 
 /* Example - switch */

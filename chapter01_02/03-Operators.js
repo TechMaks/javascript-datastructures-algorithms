@@ -40,13 +40,13 @@ console.log("num <= 1 : " + (num <= 1));
 
 /* Logical operators*/
 
-console.log("true && false: " + (true && false)); //true is false ? 'E'
+console.log("true && false: " + (true && false)); //true and false ? 'E'
 console.log("true || false: " + (true || false)); //true or false? 'ou'
 console.log("!true :" + !true); //true not is true 'negação'
 
 /* Bitwise operators */
 
-console.log("5 & 1 :", 5 & 1); // 5 is 1
+console.log("5 & 1 :", 5 & 1); // 5 and 1
 console.log("5 | 1 :", 5 | 1); //5 or 1
 console.log("~ 5 :", ~5); // 5 not is 5 'negation'
 console.log("5 ^ 1 :", 5 ^ 1); //xor (ou exclusivo)

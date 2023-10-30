@@ -14,34 +14,24 @@ console.log(`New num value is ${num}`);
 
 num++; //Increment
 
-console.log(`New num value is ${num}`);
-
 num--; //Decrement
 
 console.log(`New num value is ${num}`);
 
 console.log("num mod 2 value is " + (num % 2)); //Rest of division
 
-console.log(num);
-
 /* Assignment operators */
 num += 1; //Assign sum
-console.log(`New num value is ${num}`);
 num -= 2; //Assign subtract
-console.log(`New num value is ${num}`);
 num *= 3; //Assign mutiply
-console.log(`New num value is ${num}`);
 num /= 2; //Assing division
-console.log(`New num value is ${num}`);
 num %= 3; //Assing rest of division
 
 console.log(`New num value is ${num}`);
 
-console.log(num);
-
 /* Comparison operators */
 console.log("num == 1 : " + (num == 1)); //Equal to
-console.log("num === 1 : " + (num === 1)); //Equal to value and type
+console.log("num === 1 : " + (num === 1)); //Equal to value and string
 console.log("num != 1 : " + (num != 1)); //Different than
 console.log("num > 1 : " + (num > 1));
 console.log("num < 1 : " + (num < 1));
@@ -73,6 +63,6 @@ console.log("typeof {name:John}:", typeof { name: "John" });
 /* Delete operator */
 
 var myObj = { name: "John", age: 21 };
-delete myObj.age;
+// delete myObj.age;
 
 console.log(myObj);

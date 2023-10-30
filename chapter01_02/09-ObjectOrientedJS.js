@@ -28,7 +28,7 @@ console.log(Book.title); // outputs the book title
 
 Book.title = "New title"; //update the value of the book title
 
-console.log(Book.title); // outputs th updated value
+console.log(Book.title); // outputs the updated value
 
 Book.prototype.printTitle = function () {
   console.log(this.title);
